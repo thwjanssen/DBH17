@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tender Platform</title>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+  <link href="./app.css" rel='stylesheet' type='text/css'>
+  <script src="./app.js"></script>
+</head>
+<body>
+  <h1>Tender</h1>
+
+  <br>
+  <h1>Show Offers</h1>
+  <br><label for="offerNumber">offerNumber:</label><input type="text" id="offerNumber" placeholder="e.g., 0"></input>
+  <br><br><button id="send" onclick="ShowOfferItemID(); ShowOfferDelTime(); ShowOfferBill();">Show offer</button>
+
+  <br><br>
+  <h3>item ID: <span class="black"><span id="offerItemID"></span></h3>
+  <h3>Delivery Time: <span class="black"><span id="offerDelTime"></span> days</span> </h3>
+  <h3>Bill: <span class="black"><span id="offerBill"></span> finney</span> </h3>
+
+  <br>
+  <h1>Buy product</h1>
+  <br><label for="offerNumber">item ID:</label><input type="text" id="offerNumber" placeholder="e.g. 0, 1, 2..."></input>
+  <br><label for="buyer">Buyer:</label><input type="text" id="buyer" placeholder="e.g., 0x93e66d9baea28c17d9fc393b53e3fbdd76899dae"></input>
+  <br><label for="supplier">Supplier:</label><input type="text" id="supplier" placeholder="e.g., 0x93e66d9baea28c17d9fc393b53e3fbdd76899dae"></input>
+  <br><br><button id="send" onclick="acceptOffer()">Buy product</button>
+  <br><br>
+
+<span id="status"></span>
+
+</body>
+</html>

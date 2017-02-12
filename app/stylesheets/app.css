@@ -1,0 +1,65 @@
+body {
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 2,5%;
+  font-family: "Open Sans", sans-serif;
+  Color: orange;
+}
+
+label {
+  display: inline-block;
+  width: 100px;
+}
+
+input {
+  width: 500px;
+  padding: 5px;
+  font-size: 16px;
+}
+
+button {
+  font-size: 16px;
+  padding: 5px;
+}
+
+p {
+	border-top: 1px solid black;
+}
+
+h1, h2 {
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  font-family: verdana;
+}
+
+h1 {
+	color: green;
+	font-size: 40px;
+}
+
+h2 {
+  color: #AAA;
+  font-size: 24px;
+}
+
+h3 {
+  font-weight: normal;
+  color: #AAA;
+  font-size: 20px;
+  font-family: courier;
+  margin: 1px;
+}
+
+h4 {
+	margin-right: 5px
+}
+
+.black {
+  color: black;
+}
+
+#balance {
+  color: black;
+}
